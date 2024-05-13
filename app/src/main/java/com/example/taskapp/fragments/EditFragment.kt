@@ -29,7 +29,7 @@ class EditFragment : Fragment(R.layout.fragment_edit) ,MenuProvider{
     private lateinit var currentTask: Task
 
     private val args:EditFragmentArgs by navArgs()
-
+//gg
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

@@ -9,7 +9,7 @@ import com.example.taskapp.repository.TaskRepository
 import kotlinx.coroutines.launch
 
 class TaskViewModel (app: Application,private val taskRepository: TaskRepository):AndroidViewModel(app){
-//view model
+
     fun addTask(task: Task) =
         viewModelScope.launch {
             taskRepository.insertTask(task)

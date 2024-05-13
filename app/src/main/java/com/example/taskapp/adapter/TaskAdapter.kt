@@ -12,7 +12,7 @@ import com.example.taskapp.model.Task
 
 class TaskAdapter :RecyclerView.Adapter<TaskAdapter.TaskViewHolder>(){
     class TaskViewHolder(val taskBinding: LayoutBinding):RecyclerView.ViewHolder(taskBinding.root)
-
+//l
     private val differCallback = object :DiffUtil.ItemCallback<Task>(){
         override fun areItemsTheSame(oldItem: Task, newItem: Task): Boolean {
             return oldItem.id ==newItem.id &&

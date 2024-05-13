@@ -84,7 +84,7 @@ class HomeFragment : Fragment(R.layout.fragment_home),SearchView.OnQueryTextList
 
         }
     }
-
+//kl
     override fun onQueryTextSubmit(query: String?): Boolean {
        return false
     }

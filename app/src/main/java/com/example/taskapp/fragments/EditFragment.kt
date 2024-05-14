@@ -69,7 +69,7 @@ class EditFragment : Fragment(R.layout.fragment_edit) ,MenuProvider{
             setMessage("Do You Want to delete this Task..?")
             setPositiveButton("Delete"){_,_ ->
                 taskViewModel.deleteTask(currentTask)
-                Toast.makeText(context,"Note Deleted",Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,"Task Deleted",Toast.LENGTH_SHORT).show()
                 view?.findNavController()?.popBackStack(R.id.homeFragment,false)
             }
             setNegativeButton("Cancel",null)
